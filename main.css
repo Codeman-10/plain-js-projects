@@ -3,10 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  color: #ffc600;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 204, 255, 1) 0%,
+    rgba(9, 86, 121, 0.8) 63%
+  );
+}
 body {
   height: 100vh;
   background-color: grey;
-  background-size: cover;
+  background-size: covera;
   background: url("./pics/back.png") bottom center;
   object-fit: contain;
 }
